@@ -55,7 +55,7 @@
 <style>
 	main {
 		margin: auto;
-		max-width: 800px;
+		max-width: 1180px;
 		min-height: calc(100vh - 100px);
 	}
 	logo {
@@ -82,18 +82,6 @@
 	}
 	nav {
 		color: #444444;
-	}
-	.button {
-		background-color: #fbfbfb;
-		border-color: #aaaaaa;
-		border-width: 1px;
-		border-style: solid;
-		padding-left: 7.5px;
-		padding-right: 7.5px;
-		padding-top: 2.5px;
-		padding-bottom: 2.5px;
-		width: 240px;
-		height: 35px;
 	}
 	@media (max-width: 640px) {
 		main {

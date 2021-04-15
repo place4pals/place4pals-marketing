@@ -47,3 +47,16 @@ a, NavLink, a:hover, a:visited {
 		display: unset;
 	}
 }
+
+.button {
+	background-color: #fbfbfb;
+	border-color: #aaaaaa;
+	border-width: 1px;
+	border-style: solid;
+	padding-left: 7.5px;
+	padding-right: 7.5px;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	width: 240px;
+	height: 35px;
+}
