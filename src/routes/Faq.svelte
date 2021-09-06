@@ -4,7 +4,7 @@
 </script>
 
 <div>
-    <div style="text-align:center;margin-top:20vh;">
+    <div style="text-align:center;margin-top:10vh;margin-bottom:-5vh;">
         <block>
             <p><header1>what is place4pals?</header1></p>
             <p>
@@ -15,14 +15,13 @@
         <block>
             <p><header1>who made place4pals?</header1></p>
             <p>
-                chris aitken, you can check out his website 
+                chris aitken, you can check out his website and other projects
                 <a
                     style="text-decoration:underline"
                     class="link"
                     target="_blank"
                     alt=""
-                    href="https://heythisischris.com/"
-                    >here</a
+                    href="https://heythisischris.com">here</a
                 >.
             </p>
         </block>
@@ -31,13 +30,13 @@
             <p><header1>how can i help place4pals?</header1></p>
             <p>
                 shoot us an email! <a
-                style="text-decoration:underline"
-                class="link"
-                target="_blank"
-                alt=""
-                href="mailto:support@place4pals.com"
-                >support@place4pals.com</a
-            >.
+                    style="text-decoration:underline"
+                    class="link"
+                    target="_blank"
+                    alt=""
+                    href="mailto:support@place4pals.com"
+                    >support@place4pals.com</a
+                >.
             </p>
         </block>
     </div>

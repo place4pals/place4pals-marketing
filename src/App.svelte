@@ -33,16 +33,20 @@
 				|
 				<a
 					class="link button not-mobile"
-					href="https://app.place4pals.com/login">Log In</a
+					href="https://app.p4p.io">Log In</a
 				>
 				<a
 					class="link button button not-mobile"
-					href="https://app.place4pals.com/signup">Sign Up</a
+					href="https://app.p4p.io/signup">Sign Up</a
 				>
 				<a
 					class="link button only-mobile"
-					href="javascript:alert(`Sorry, this app isn't available for mobile devices yet. Visit this page on desktop instead!`)"
-					>download the app</a
+					on:click={() => {
+						alert(
+							`Sorry, this app isn't available for mobile devices yet. Visit this page on desktop instead!`
+						);
+					}}
+					href="/#">download the app</a
 				>
 			</nav>
 		</logo>
@@ -86,6 +90,7 @@
 	@media (max-width: 640px) {
 		main {
 			max-width: 100%;
+			min-height: calc(100vh - 200px);
 		}
 		footer {
 			width: unset;
